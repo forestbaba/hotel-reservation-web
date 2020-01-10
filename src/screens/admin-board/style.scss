@@ -1,0 +1,40 @@
+.admin-board {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .left-side {
+    width: 25vw;
+
+    .name-holder {
+      padding: 10px;
+    }
+
+    .image-holder {
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+          
+
+      img {
+        border-radius: 150px;
+        width: 100px;
+        border-width: 2px;
+        padding: 10px;
+        border-color:'red';
+        // border-color: indianred;
+      }
+    }
+
+    .menu-item {
+      padding: 30px;
+    }
+  }
+
+  .right-side {
+    width: 80vw;
+    height: 100vh;
+
+  }
+}

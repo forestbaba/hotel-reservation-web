@@ -1,0 +1,64 @@
+.card{
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right:20px;
+   // margin: 20px;
+
+    p{
+        padding-left: 20px;
+        // padding-top:20px
+    }
+    // padding: 10px;
+
+    .details-holder{
+        // margin-left
+    }
+
+    .title{
+        font-size:30px;
+        font-weight:800;
+        
+    }
+    .value{
+        font-size:20px
+    }
+}
+
+.dashboard{
+
+    width: 75VW;
+    background-color: #EEEEEE;
+padding:40px;
+
+    .top-bar{
+        height:20vh;
+        background-color:#61cec7;
+        margin:-41px;
+
+        h5{
+            padding:25px;
+            // padding-top:20px;
+             font-size:20px
+        }
+
+
+    }
+    
+    .cards-holder{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        // margin-top:-100px
+
+    }
+
+    .dashboard-desc{
+        padding:20px;
+        background-color:#FFFFFF;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+}
