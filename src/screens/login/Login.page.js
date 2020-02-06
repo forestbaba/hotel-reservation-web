@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react'
 import './style.scss'
 import bgimage from './backgroundimg.jpg'
 
-import InputField from '../../components/textinput.field'
+import InputField from '../../components/text-input/textinput.field'
 import Actionbutton from '../../components/action.button'
 
 //source: https://dribbble.com/shots/8504284-Pomah-Rent-House-Register-Page

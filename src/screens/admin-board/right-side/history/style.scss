@@ -1,0 +1,29 @@
+.table-holder{
+    height: 80Vh;
+    padding:50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.toolkit-holder{
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+    .dropdown-holder{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        // justify-items: center;
+        // align-items: center;
+
+        p{
+            margin:10px;
+            width: 80px;
+        }
+    }
+}

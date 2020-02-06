@@ -5,25 +5,41 @@
 
   .left-side {
     width: 25vw;
+    border-right: 1px solid #eaeaea;
+    // position: fixed;
+
 
     .name-holder {
       padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
     }
 
     .image-holder {
-      display:flex;
-      flex-direction:column;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-          
+
 
       img {
         border-radius: 150px;
-        width: 100px;
+        width: 150px;
+        height: 150px;
         border-width: 2px;
         padding: 10px;
-        border-color:'red';
+        border-color: 'red';
         // border-color: indianred;
+      }
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        margin-top: 20px;
+        margin-bottom: 40px;
       }
     }
 

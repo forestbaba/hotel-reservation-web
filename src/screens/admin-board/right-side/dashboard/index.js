@@ -1,16 +1,15 @@
 import React from 'react'
-import Card from './card'
+import Card from '../../../../components/card'
 import './style.scss'
-import ReactTable from './table/Table'
+import ReactTable from '../../../../components/table/Table'
+import Topbar from '../../../../components/top-bar'
 
 
 const index = () => {
     let x =['one', 'two','three']
     return (
         <div className='dashboard'>
-            <div className='top-bar'>
-                <h5>Dashboard</h5>
-            </div>
+            <Topbar title={'Dashboard'}/>
            
             <div className='cards-holder'>
             {

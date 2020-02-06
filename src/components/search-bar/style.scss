@@ -1,0 +1,20 @@
+.search-parent {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+    padding: 10px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        border-width: 0px;
+        padding: 5px;
+        width: 100%;
+        background-color: #EEEEEE;
+        outline: none;
+
+
+    }
+}
